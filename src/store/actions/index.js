@@ -5,11 +5,24 @@ const changeMonth = (typeOfChange) => {
   };
 };
 
-const toggleAddEventWidow = (typeOfToggle) => {
+const toggleAddEventWidow = (dayChoosen = "") => {
   return {
     type: "TOGGLE_ADD_EVENT_WINDOW",
-    typeOfToggle: typeOfToggle,
+    dayChoosen: dayChoosen,
   };
 };
 
-export { changeMonth, toggleAddEventWidow };
+const setUserRole = (userRole) => {
+  return {
+    type: "SET_USER_ROLE",
+    userRole: userRole,
+  };
+};
+
+const eventsListAmended = () => {
+  return {
+    type: "EVENTS_LIST_AMENDED",
+  };
+};
+
+export { changeMonth, toggleAddEventWidow, setUserRole, eventsListAmended };

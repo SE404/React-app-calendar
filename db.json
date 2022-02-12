@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": 3,
+      "title": "event 3",
+      "description": "some description",
+      "location": "Spb",
+      "type": "confirmed",
+      "timeStamp": "1644939988000"
+    },
+    {
+      "id": 4,
+      "title": "event 4",
+      "description": "some description",
+      "location": "Spb",
+      "type": "pending",
+      "timeStamp": "1645026388000"
+    },
+    {
+      "id": 5,
+      "title": "event 5",
+      "description": "some description",
+      "location": "Spb",
+      "type": "pending",
+      "timeStamp": "1647445588000"
+    },
+    {
+      "title": "conference",
+      "description": "talk",
+      "location": "spb",
+      "time": "",
+      "timeStamp": "1643230800000",
+      "type": "confirmed",
+      "id": 6
+    },
+    {
+      "title": "some title",
+      "description": "some descr",
+      "location": "Moscow",
+      "time": "12:29",
+      "timeStamp": "1647550800000",
+      "type": "confirmed",
+      "id": 7
+    },
+    {
+      "title": "1",
+      "description": "1",
+      "location": "1",
+      "time": "",
+      "timeStamp": "1645045200000",
+      "type": "confirmed",
+      "id": 8
+    }
+  ]
+}
